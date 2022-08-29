@@ -1,0 +1,156 @@
+#title {
+    background-color: #ff4668;
+}
+
+#h1 {
+    /* font-family: 'Montserrat-Black'; */
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluids {
+    padding: 3% 15% 10%;
+}
+
+/* Navbar  */
+.sg {
+    padding-top: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+/* title image */
+.title-image {
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* features section */
+#features {
+    z-index: 1;
+    position: relative;
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4668;
+
+}
+
+/* testimonials section */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.tesh2 {
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+
+#cta {
+    background-color: #ff4668;
+    padding: 7% 15%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.ctas {
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.find {
+    margin-top: 15px;
+}
+
+#footer {
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    color: black;
+}
+
+.copy {
+    font-size: 1.5rem;
+
+}
+
+#footer-icons {
+    color: #ef8172;
+}
+
+#footer-icons:hover {
+    color: #ff4668;
+
+}
+
+.footer-icon {
+    margin: 20px 15px;
+
+}
+
+/* mobile  */
+@media (max-width: 1062px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        margin-top: 8px;
+        transform: rotate(0deg);
+        position: static;
+    }
+}
